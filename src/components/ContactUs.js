@@ -12,13 +12,21 @@ class ContactUs extends React.Component {
 
   render() {
     return (
-      <form style={formStyles} name = "contact" action="/contact" method="post">
-        <input type="hidden" name="contact" value="contact" />
-        <input required type="text" name="name" placeholder="Your name"/>
-        <input requried type="email" name="email" placeholder="Your email" />
-        <textarea required name="messsage" cols="60"rows="10" placeholder="Your message"></textarea>
-        <button type="submit">Send a message</button>
-      </form>
+      <form name="contact" method="post">
+          <input type="hidden" name="form-name" value="contact" />
+          <p>
+            <label>Your Name: <input type="text" name="name"/></label>
+          </p>
+          <p>
+            <label>Your Email: <input type="email" name="email"/></label>
+          </p>
+          <p>
+            <label>Message: <textarea name="message"></textarea></label>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>
     )
   }
 }
