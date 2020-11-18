@@ -26,7 +26,7 @@ function App() {
       </header>
       <Service/>
       <AboutUs/>
-      <ContactUs/>
+      <ContactUs href="/contact"/>
     </div>
   );
 }
