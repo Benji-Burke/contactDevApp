@@ -24,7 +24,7 @@ class ContactForm extends Component {
     this.setState({ status: "Sending" });  
     axios({
       method: "POST",
-      url: "https://serene-cove-15036.herokuapp.com/",
+      url: "https://serene-cove-15036.herokuapp.com/contact",
       data: this.state,
     }).then((response) => {
       if (response.data.status === "sent") {
