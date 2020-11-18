@@ -2,8 +2,8 @@ import Service from './components/Service.js'
 import NavbarComponent from './components/Navbar/NavbarComponent.js';
 import AboutUs from './components/AboutUs.js';
 import logo from './Infinity-Arrow.svg';
-import ContactUs from './components/ContactUs.js';
 import './App.css';
+import ContactForm from './components/ContactForm.js';
 
 
 
@@ -26,7 +26,7 @@ function App() {
       </header>
       <Service/>
       <AboutUs/>
-      <ContactUs/>
+      <ContactForm/>
     </div>
   );
 }

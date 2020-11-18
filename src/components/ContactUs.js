@@ -12,7 +12,7 @@ class ContactUs extends React.Component {
 
   render() {
     return (
-      <form style={formStyles} name="contact" method="post">
+      <form st name="contact" method="post">
           <input type="hidden" name="contact" value="contact" />
           <p>
             <label>Your Name: <input type="text" name="name"/></label>
