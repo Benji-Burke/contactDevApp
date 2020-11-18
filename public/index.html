@@ -36,13 +36,33 @@
       <input type="email" name="email" />
       <textarea name="message"></textarea>
     </form>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+
     <div id="root"></div>
-  
-
-    
-
-    
+    <script type="text/babel">
+      ReactDOM.render(
+        <form method="post">
+          <input type="hidden" name="form-name" value="contact" />
+          <p>
+            <label>
+              Your Name: <input type="text" name="name" />
+            </label>
+          </p>
+          <p>
+            <label>
+              Your Email: <input type="email" name="email" />
+            </label>
+          </p>
+          <p>
+            <label>
+              Message: <textarea name="message" />
+            </label>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>,
+        document.getElementById("root")
+      );
+    </script>
   </body>
-
 </html>
