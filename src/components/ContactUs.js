@@ -12,8 +12,8 @@ class ContactUs extends React.Component {
 
   render() {
     return (
-      <form name="contact" method="post">
-          <input type="hidden" name="form-name" value="contact" />
+      <form style={formStyles} name="contact" method="post">
+          <input type="hidden" name="contact" value="contact" />
           <p>
             <label>Your Name: <input type="text" name="name"/></label>
           </p>
