@@ -3,7 +3,9 @@ import NavbarComponent from './components/Navbar/NavbarComponent.js';
 import AboutUs from './components/AboutUs.js';
 import logo from './Infinity-Arrow.svg';
 import './App.css';
-import ContactForm from './components/ContactForm.js';
+import './Contact.css';
+import FirebaseContact from './components/FirebaseContact.js';
+// import ContactForm from './components/ContactForm.js';
 
 
 
@@ -26,7 +28,7 @@ function App() {
       </header>
       <Service/>
       <AboutUs/>
-      <ContactForm/>
+      <FirebaseContact/>
     </div>
   );
 }
