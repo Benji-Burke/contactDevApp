@@ -14,7 +14,7 @@ function App() {
       <header className="App-header">
     
         <img src={logo} className="App-logo" alt="logo" />
-        <p className="Headliner">Hello, we are DevApp Agency, a digital agency for your technological needs and dreams.</p>
+        <p className="Headliner">Hi, we are DevApp Agency, a digital agency for your technological needs and dreams.</p>
         <a
           className="App-link"
           href="https://reactjs.org"
