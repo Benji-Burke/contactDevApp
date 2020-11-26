@@ -11,7 +11,7 @@ const FirebaseContact = () => {
     const [name, setName]=useState("");
     const [email, setEmail]=useState("");
     const [message, setMessage]=useState("");
-    const [time, setTime]=useState("");
+    const [setTime]=useState("");
 
     const [loader, setLoader]=useState(false);
 
